@@ -1,14 +1,13 @@
-package com.practice.api.stepdefinitions;
+package com.practice.stepdefinitions;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.practice.api.utils.ApiUtils;
-import com.practice.api.utils.AuthenticationUtil;
-import com.practice.api.models.BankAccount;
+import com.practice.utils.ApiUtils;
+import com.practice.utils.AuthenticationUtil;
+import com.practice.models.BankAccount;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.response.Response;
-import org.apache.http.HttpStatus;
 
 import static org.junit.Assert.assertEquals;
 

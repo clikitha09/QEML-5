@@ -1,4 +1,4 @@
-package com.practice.api.models;
+package com.practice.models;
 
 public class AuthenticationUser {
     private String username;

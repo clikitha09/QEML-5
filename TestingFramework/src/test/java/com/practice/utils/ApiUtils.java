@@ -1,4 +1,4 @@
-package com.practice.api.utils;
+package com.practice.utils;
 
 import com.practice.hooks.ApiHooks;
 import io.restassured.builder.RequestSpecBuilder;

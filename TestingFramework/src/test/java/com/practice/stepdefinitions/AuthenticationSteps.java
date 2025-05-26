@@ -1,9 +1,9 @@
-package com.practice.api.stepdefinitions;
+package com.practice.stepdefinitions;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.practice.api.utils.ApiUtils;
-import com.practice.api.utils.AuthenticationUtil;
-import com.practice.api.models.AuthenticationUser;
+import com.practice.utils.ApiUtils;
+import com.practice.utils.AuthenticationUtil;
+import com.practice.models.AuthenticationUser;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
